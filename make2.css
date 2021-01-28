@@ -445,7 +445,7 @@ transform: rotate(134.47deg); */
 .web{
     max-width: 100%;
     height: auto;
-    /* border: 2px solid pink; */
+    border: 2px solid pink;
     margin-top: 27rem;
     display: flex;
     flex-wrap: wrap;
@@ -455,12 +455,12 @@ transform: rotate(134.47deg); */
 .developer{
     width: 60rem;
     height: auto;
-    /* border: 2px solid green; */
+    border: 2px solid green;
     margin: .5rem;
     
 }
 .dev1{
-    /* border: 2px solid gray; */
+    border: 2px solid gray;
     height: auto;
     width:90%;
     /* justify-content: center; */
@@ -470,11 +470,11 @@ transform: rotate(134.47deg); */
 
 }
 .dev2{
-    /* border: 2px solid gray; */
+    border: 2px solid gray;
     height: auto;
     width: 90%;
     margin:auto;
-    float: right;
+    /* float: right; */
     
 }
 
@@ -482,14 +482,15 @@ transform: rotate(134.47deg); */
     display: flex;
     flex-wrap: wrap;
     gap: 3rem;
-    /* border: 2px solid gray; */
+    border: 2px solid gray;
     height: auto;
     width: 75%;
-    /* margin-left: 80px; */
+    
     margin-top: 1rem;
     margin: auto;
+    margin-left: 2.8rem;
     /* justify-content: center; */
-    /* float: right; */
+    float: left;
 }
 .dev1 p{
   font-family: Gilroy;
