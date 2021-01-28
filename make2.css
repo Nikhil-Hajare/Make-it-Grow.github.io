@@ -445,7 +445,7 @@ transform: rotate(134.47deg); */
 .web{
     max-width: 100%;
     height: auto;
-    border: 2px solid pink;
+    /* border: 2px solid pink; */
     margin-top: 27rem;
     display: flex;
     flex-wrap: wrap;
@@ -455,22 +455,22 @@ transform: rotate(134.47deg); */
 .developer{
     width: 60rem;
     height: auto;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     margin: .5rem;
     
 }
 .dev1{
-    border: 2px solid gray;
+    /* border: 2px solid gray; */
     height: auto;
     width:90%;
-    /* justify-content: center; */
+    justify-content: center;
     /* align-items: center; */
     margin: auto;
-    
-
 }
+
+
 .dev2{
-    border: 2px solid gray;
+    /* border: 2px solid gray; */
     height: auto;
     width: 90%;
     margin:auto;
@@ -482,13 +482,14 @@ transform: rotate(134.47deg); */
     display: flex;
     flex-wrap: wrap;
     gap: 3rem;
-    border: 2px solid gray;
+    /* border: 2px solid gray; */
     height: auto;
     width: 75%;
     
     margin-top: 1rem;
     margin: auto;
     margin-left: 2.8rem;
+    margin-bottom: 3rem;
     /* justify-content: center; */
     float: left;
 }
@@ -501,7 +502,7 @@ transform: rotate(134.47deg); */
   line-height: 1.98;
   letter-spacing: normal;
   /* text-align: left; */
-  margin-left: 1rem;
+  /* margin-left: 1rem; */
   color: #ffffff;
 }
 
@@ -634,11 +635,11 @@ transform: rotate(134.47deg); */
     background-position: center;
 }
 .developer img{
-    width: 80%;
-    height: 42rem;
+    width: 70%;
+    height: 35rem;
     /* margin: 0px 125px 0px 125px; */
-    margin-left: 2rem;
-    margin-top: 3.5rem;
+    margin-left: 3rem;
+    margin-top: 1.5rem;
     border-radius: 2rem;
 }
 .web .arrow2{
@@ -740,7 +741,7 @@ transform: rotate(134.47deg); */
    height: auto;
    width: 90%;
    margin:auto;
-   float: right;
+   /* float: right; */
 }
 .brand1 p{
     font-family: Gilroy;
@@ -751,7 +752,7 @@ transform: rotate(134.47deg); */
     line-height: 1.98;
     letter-spacing: normal;
     /* text-align: left; */
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
     color: #ffffff;
   }
   
@@ -768,11 +769,11 @@ transform: rotate(134.47deg); */
   }
   .branding img{
     
-    width: 80%;
-    height: 42rem;
+    width: 70%;
+    height: 35rem;
     /* margin: 0px 125px 0px 125px; */
-    margin-left: 2rem;
-    margin-top: 3.5rem;
+    margin-left: 3rem;
+    margin-top: 1.5rem;
     border-radius: 2rem;
     
   }
