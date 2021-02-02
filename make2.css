@@ -456,6 +456,12 @@ transform: rotate(134.47deg); */
     gap: 3rem;
     justify-content: center;
 }
+
+#reverse{
+    flex-wrap: wrap-reverse;
+    right:5rem;
+    /* border: 2px solid white; */
+}
 .developer{
     width: 60rem;
     height: auto;
@@ -663,6 +669,11 @@ transform: rotate(134.47deg); */
     .web .arrow2{
         margin-left: 3rem;
     }
+
+    #reverse{
+        position: relative;
+        right: 7rem;
+    }
 }
 
 @media screen and (max-width:768px){
@@ -672,6 +683,11 @@ transform: rotate(134.47deg); */
 
     .web .arrow2{
         margin-left: 3rem;
+    }
+
+    #reverse{
+        position: relative;
+        right: 7rem;
     }
 }
 
@@ -732,6 +748,7 @@ transform: rotate(134.47deg); */
     margin-top: 27rem;
     display: flex;
     flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     gap: 3rem;
     justify-content: center;
 }
