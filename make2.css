@@ -822,7 +822,7 @@ transform: rotate(134.47deg); */
 
 @media screen and (max-width:998px){
     .brand{
-        margin-top: 17rem;
+        margin-top: 20rem;
     }
 
     .branding .arrow2{
@@ -832,7 +832,7 @@ transform: rotate(134.47deg); */
 
 @media screen and (max-width:768px){
     .brand{
-        margin-top: 7rem;
+        margin-top: 9rem;
     }
 
     .branding .arrow2{
