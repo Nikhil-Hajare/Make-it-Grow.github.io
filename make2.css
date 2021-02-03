@@ -196,55 +196,27 @@ body{
     /* margin-top: 20px; */
     margin: auto;
 }
-.disc p{
-    font-family: Gilroy;
-    font-size:1.4rem;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: 0.252rem;
-    color: #ffffff;
-    /* padding-left:210px ; */
-    margin: auto;
-    /* margin-left: 0px; */
-}
-@media(max-width:1100px){
-    .disc p{
-    margin: 2rem;        
-    }
-    .disc #line1{
-        margin-left: 2rem;
-    }
-}
-@media(max-width:550px){
-    .disc p{
-        margin-left: 4.5rem;
-    }
-    .disc #line1{
-        margin-left: 4.7rem;
-    }
+
+.disc .contact-us{
+    width: 12rem;
+    height: 3.5rem;
+    background-color: black;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    color: white;
+    outline:none;
+    border: 1px solid #3ae77f;
+    cursor: pointer;
+    font-family:monospace;
 }
 
-#line1{
-    width: 25%;
-    height: .4rem;
-    /* margin-left:210px; */
-    margin-top: 11px;
-    background-color: rgba(196, 196, 196, 0.08);
-    font-family: Gilroy;
-    font-size: 1.8rem;
-    font-weight: 300;
+.disc .contact-us:hover{
+    background-color:#3ae77f;
+    color:black;
+    font-weight: 700;
 }
-#line1::after{
-    position: absolute;
-    z-index: 1;
-    content: "";
-    width: 5%;
-    height: .4rem;
-    box-shadow: 3px 3px 20px 0 rgba(61, 251, 137, 0.19);
-    background-image: linear-gradient(to top, #51e8f1, #3dfb89);
-}
+
+
 .png{
     width: 100%;
     height: auto;
@@ -906,26 +878,25 @@ transform: rotate(134.47deg); */
     height: auto;
     margin-top: -10rem;
     /* float: right; */
-    margin-left: 22.5%;
+    margin-left: 28.5%;
     z-index: -1;
     /* transform: matrix(0.29, 0.96, 0.96, -0.29, 0, 0); */
     }
-    .triangle6 img{
-        width: 20rem;
-        max-width: 100%;
-        height: 12.618rem;
-        height: auto;
-        /* opacity: 0.5; */
-        /* margin-top: 10px; */
-        
+
+.triangle6 img{
+    width: 20rem;
+    max-width: 100%;
+    height: 12.618rem;
+    height: auto; 
     }
 
 .we3{
-    width: 38%;
+    width: 100%;
     height: auto;
     /* border: 2px solid gray; */
     float: right;
-    margin: auto;}
+    margin: auto;
+}
 
 .we3 p{
     font-family: Gilroy;
@@ -935,7 +906,8 @@ transform: rotate(134.47deg); */
     font-style: normal;
     line-height: 1.19;
     letter-spacing: normal;
-    text-align: left;
+    text-align: center;
+    float: center;
     color: #ffffff;
 }
 
