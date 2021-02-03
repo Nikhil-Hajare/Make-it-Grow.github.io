@@ -204,6 +204,7 @@ body{
     border-radius: 2rem;
     margin-top: 1rem;
     color: white;
+    font-size: 2rem;
     outline:none;
     border: 1px solid #3ae77f;
     cursor: pointer;
