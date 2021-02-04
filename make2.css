@@ -10,7 +10,7 @@
 @font-face {
     font-family: 'gilroy-light';
     src: url('gilroy_light_macroman/gilroy-light-webfont.woff2') format('woff2'),
-         url('gilroy_light_macroman/gilroy-light-webfont.woff') format('woff');
+    url('gilroy_light_macroman/gilroy-light-webfont.woff') format('woff');
     font-weight: bolder;
     font-style: normal;
 }
@@ -51,8 +51,8 @@ nav{
 
     
 nav .logo{
-    height: 9.5rem;
-    width: 10rem;
+    height: 10.5rem;
+    width: 12rem;
     margin-left: 5rem;
     margin-top: 1rem;
 }
