@@ -5,6 +5,14 @@
     list-style: none;
 }
 
+@font-face {
+    font-family: 'gilroy-light';
+    src: url('gilroy_light_macroman/gilroy-light-webfont.woff2') format('woff2'),
+         url('gilroy_light_macroman/gilroy-light-webfont.woff') format('woff');
+    font-weight: bolder;
+    font-style: normal;
+}
+
 html{
     font-size: 62.5%;
    
@@ -68,7 +76,7 @@ body{
         padding: 1rem .3rem;
         padding-right: 1rem;
         border-radius: .5rem;
-        font-family: 'Rubik', sans-serif;  
+        font-family: 'gilroy-light';
     }
     
     nav #icon{
@@ -198,7 +206,7 @@ body{
     width: 80%;
     height: auto;
     margin: auto;
-    font-family: Gilroy;
+    font-family: 'gilroy-light';
     /* border: 2px solid gray; */
     padding: 0;
     margin-top: 15rem;
@@ -213,7 +221,7 @@ body{
     font-stretch: normal;
     font-style: normal;
     letter-spacing: normal;
-    font-weight: 80rem;
+    font-weight: bolder;
 }
 
 @media(max-width:472px){
@@ -248,7 +256,7 @@ body{
     outline:none;
     border: 1px solid #3ae77f;
     cursor: pointer;
-    font-family:monospace;
+    font-family: 'gilroy-light';
 }
 
 .disc .contact-us:hover{
@@ -380,7 +388,7 @@ transform: rotate(134.47deg); */
 } */
 
 .img p{
-    font-family: Gilroy;
+    font-family: 'gilroy-light';
     font-size: 5rem;
     font-weight: 800;
     font-stretch: normal;
@@ -420,7 +428,7 @@ transform: rotate(134.47deg); */
         
     }
 .disc2 p{
-    font-family: Gilroy;
+    font-family: 'gilroy-light';
     font-size: 1.7rem;
     font-weight: 300;
     font-stretch: normal;
@@ -439,7 +447,7 @@ transform: rotate(134.47deg); */
     margin-left:15rem;
     margin-top: 1.1rem;
     background-color: rgba(196, 196, 196, 0.08);
-    font-family: Gilroy;
+    font-family: 'gilroy-light';
     font-size: 1.8rem;
     font-weight: 300;
 }
@@ -533,7 +541,7 @@ transform: rotate(134.47deg); */
     float: left;
 }
 .dev1 p{
-  font-family: Gilroy;
+    font-family: 'gilroy-light';
   font-size: 3rem;
   font-weight: 900;
   font-stretch: normal;
@@ -546,7 +554,7 @@ transform: rotate(134.47deg); */
 }
 
 .dev2 p{
-    font-family: Gilroy;
+    font-family: 'gilroy-light';
     font-size:2rem;
     font-weight: 300;
     font-stretch: normal;
@@ -807,7 +815,7 @@ transform: rotate(134.47deg); */
    /* float: right; */
 }
 .brand1 p{
-    font-family: Gilroy;
+    font-family: 'gilroy-light';
     font-size: 4rem;
     font-weight: 900;
     font-stretch: normal;
@@ -820,7 +828,7 @@ transform: rotate(134.47deg); */
   }
   
   .brand2 p{
-    font-family: Gilroy;
+    font-family: 'gilroy-light';
     font-size:2.2rem;
     font-weight: 300;
     font-stretch: normal;
@@ -958,7 +966,7 @@ transform: rotate(134.47deg); */
 }
 
 .we3 p{
-    font-family: Gilroy;
+    font-family: 'gilroy-light';
     font-size: 4rem;
     font-weight: 800;
     font-stretch: normal;
@@ -1013,7 +1021,7 @@ transform: rotate(134.47deg); */
     margin: auto;
 }
 .contact p{
-font-family: Poppins;
+    font-family: 'gilroy-light';
 font-style: normal;
 font-weight: 500;
 font-size: 3.3rem;
