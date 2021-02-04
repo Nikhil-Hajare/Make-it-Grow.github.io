@@ -980,8 +980,9 @@ transform: rotate(134.47deg); */
 
 
 .letstalk{
+    position: relative;
     max-width: 100%;
-    height: auto;
+    height: 13rem;
     /* border: 2px solid gray; */
     margin-top: 15rem;
     background-color: #32d974;
@@ -997,14 +998,7 @@ transform: rotate(134.47deg); */
     gap: 1rem;
 }
 
-.logo2{
-    width: 45%;
-    height: 16.5rem;
-    /* border: 2px solid gray; */
-    /* margin-left: 50px; */
-    margin: auto;
-    float: right;
-}
+
 .talk{
     /* border: 2px solid gray; */
     height: 7rem;
@@ -1017,16 +1011,31 @@ transform: rotate(134.47deg); */
     line-height: 8.3rem;
     /* identical to box height, or 173% */
     color: #FFFFFF;
-    margin: auto;
+    margin-left: 5rem;
+    /* margin: auto; */
 }
 .contact p{
     font-family: 'gilroy-light';
 font-style: normal;
-font-weight: 500;
+font-weight: 700;
 font-size: 3.3rem;
 line-height: 4rem;
 color: #FFFFFF;
-margin-left: 4rem;
-margin: auto;
+margin-left: 5rem;
+/* margin: auto; */
 
+}
+
+#log{
+    height: 12rem;
+    width: 12rem;
+    position: absolute;
+    right: 10rem;
+    top: 1rem;
+}
+
+@media(max-width:362px){
+    #log{
+        right: 0;
+    }
 }
