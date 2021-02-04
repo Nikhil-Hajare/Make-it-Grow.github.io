@@ -190,6 +190,14 @@ body{
     letter-spacing: normal;
     font-weight: 80rem;
 }
+
+@media(max-width:472px){
+    #heading{
+        width: 100%;
+    }
+}
+
+
 #c{
     color: #3ae77f;
 }
@@ -228,8 +236,14 @@ body{
     .disc .contact-us{
          margin-left: 2.5rem;
     }
+}
 
-
+@media(max-width:472px){
+    .disc{
+        width: 100%;
+        margin-left: 5rem;
+    }
+    
 }
 
 
