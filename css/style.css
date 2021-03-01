@@ -6,14 +6,7 @@
 }
 
 
- /* Web Font  */
-@font-face {
-    font-family: 'gilroy-light';
-    src: url('gilroy_light_macroman/gilroy-light-webfont.woff2') format('woff2'),
-    url('gilroy_light_macroman/gilroy-light-webfont.woff') format('woff');
-    font-weight: bolder;
-    font-style: normal;
-}
+
 
 
 /* Root For Rem  */
@@ -51,14 +44,23 @@ nav{
 
 
     
-nav .logo{
-    height: 2.8rem;
-    width: 11rem;
-    margin-left: 5rem;
-    margin-top: 4.5rem;
+nav .logo-div{
+   /* border: 1px solid white; */
+   margin: 1rem;
+   margin-top:4rem ;
+   margin-left: 7rem;
+   width: 18rem;
+   height: auto;
 }
+
+nav #logo{
+    width: 18rem;
+    height: auto;
+}
+
+
     
-    nav ul{
+ nav ul{
         float: right;
         margin-right: 4rem;
         padding-top: 7rem;
@@ -76,7 +78,7 @@ nav .logo{
         padding: 1rem .3rem;
         padding-right: 1rem;
         border-radius: .5rem;
-        font-family: 'gilroy-light';
+        font-family: 'Montserrat', sans-serif;
     }
     
     nav #icon{
@@ -85,7 +87,7 @@ nav .logo{
         font-size: 3.6rem;
         float: right;
         margin-right: 7.5rem;
-        margin-top: 4rem;
+        margin-top: -4.7rem;
         cursor: pointer;
     }
     
@@ -184,7 +186,7 @@ nav .logo{
     width: 80%;
     height: auto;
     margin: auto;
-    font-family: 'gilroy-light';
+    font-family: 'Montserrat', sans-serif;
     padding: 0;
     margin-top: 15rem;  
 }
@@ -224,11 +226,12 @@ nav .logo{
     border-radius: 2rem;
     margin-top: 1.5rem;
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-weight: 400;
     outline:none;
     border: 1px solid #3ae77f;
     cursor: pointer;
-    font-family: 'gilroy-light';
+    font-family: 'Montserrat', sans-serif;
 }
 
 .disc .contact-us:hover{
@@ -309,7 +312,7 @@ nav .logo{
 }
 
 .img p{
-    font-family: 'gilroy-light';
+    font-family: 'Montserrat', sans-serif;
     font-size: 5rem;
     font-weight: 800;
     font-stretch: normal;
@@ -344,7 +347,7 @@ nav .logo{
     }
 
 .disc2 p{
-    font-family: 'gilroy-light';
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.7rem;
     font-weight: 300;
     font-stretch: normal;
@@ -363,7 +366,7 @@ nav .logo{
     margin-left:15rem;
     margin-top: 1.1rem;
     background-color: rgba(196, 196, 196, 0.08);
-    font-family: 'gilroy-light';
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.8rem;
     font-weight: 300;
 }
@@ -445,7 +448,7 @@ nav .logo{
 }
 
 .dev1 p{
-    font-family: 'gilroy-light';
+    font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
   font-weight: 900;
   font-stretch: normal;
@@ -456,7 +459,7 @@ nav .logo{
 }
 
 .dev2 p{
-    font-family: 'gilroy-light';
+    font-family: 'Montserrat', sans-serif;
     font-size:2rem;
     font-weight: 300;
     font-stretch: normal;
@@ -601,7 +604,7 @@ nav .logo{
 }
 
 .brand1 p{
-    font-family: 'gilroy-light';
+    font-family: 'Montserrat', sans-serif;
     font-size: 4rem;
     font-weight: 900;
     font-stretch: normal;
@@ -612,7 +615,7 @@ nav .logo{
   }
   
   .brand2 p{
-    font-family: 'gilroy-light';
+    font-family: 'Montserrat', sans-serif;
     font-size:2.2rem;
     font-weight: 300;
     font-stretch: normal;
@@ -734,7 +737,7 @@ nav .logo{
 }
 
 .we3 p{
-    font-family: 'gilroy-light';
+    font-family: 'Montserrat', sans-serif;
     font-size: 4rem;
     font-weight: 800;
     font-stretch: normal;
@@ -770,7 +773,7 @@ nav .logo{
 }
 
 .talk p{
-    font-family: Gilroy;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 4.8rem;
@@ -780,7 +783,7 @@ nav .logo{
 }
 
 .contact p{
-font-family: 'gilroy-light';
+font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 3.3rem;
