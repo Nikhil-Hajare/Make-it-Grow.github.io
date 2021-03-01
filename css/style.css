@@ -108,7 +108,8 @@ nav #logo{
           position: fixed;
           width: 50%;
           height: 100vh;
-          background: #3ae77f;
+          background: #1BB358;
+          z-index: 2;
           top: 0;
           left: -100%;
           text-align: center;
@@ -155,7 +156,8 @@ nav #logo{
             position: fixed;
             width: 50%;
             height: 100vh;
-            background: #3ae77f;
+            background: #1BB358;
+          z-index: 2;
             top: 15.1rem;
             left: -100%;
             text-align: center;
